@@ -1,0 +1,105 @@
+.section3 {
+  margin-top: 50px;
+}
+.section3 .inner {
+  flex-direction: column;
+}
+.section3 .inner .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.section3 .inner .title h2 {
+  font-weight: 700;
+  font-size: 22px;
+}
+.section3 .inner .title .btn {
+  height: 25px;
+  width: 100px;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 10px;
+  font-size: 14px;
+}
+.section3 .inner .title .btn:hover {
+  cursor: pointer;
+}
+.section3 .inner .services {
+  display: flex;
+  justify-content: space-between;
+}
+.section3 .inner .services .service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+.section3 .inner .services .service:hover {
+  cursor: pointer;
+}
+.section3 .inner .services .service .service__icon {
+}
+.section3 .inner .services .service:nth-child(1) .service__icon {
+  background: url("../../images/icons-section3.png") no-repeat -373px -13px;
+  width: 35px;
+  height: 35px;
+}
+.section3 .inner .services .service:nth-child(2) .service__icon {
+  background: url("../../images/icons-section3.png") no-repeat -15px -15px;
+  width: 31px;
+  height: 30px;
+}
+.section3 .inner .services .service:nth-child(3) .service__icon {
+  background: url("../../images/icons-section3.png") no-repeat -133px -13px;
+  width: 35px;
+  height: 35px;
+}
+.section3 .inner .services .service:nth-child(4) .service__icon {
+  background: url("../../images/icons-section3.png") no-repeat -313px -13px;
+  width: 35px;
+  height: 35px;
+}
+.section3 .inner .services .service:nth-child(5) .service__icon {
+  background: url("../../images/icons-section3.png") no-repeat -184px -14px;
+  width: 52px;
+  height: 33px;
+}
+.section3 .inner .services .service:nth-child(6) .service__icon {
+  background: url("../../images/icons-section3.png") no-repeat -968px -11px;
+  width: 45px;
+  height: 39px;
+}
+.section3 .inner .services .service:nth-child(7) .service__icon {
+  background: url("../../images/icons-section3.png") no-repeat -788px -12px;
+  width: 45px;
+  height: 36px;
+}
+.section3 .inner .services .service:nth-child(8) .service__icon {
+  background: url("../../images/icons-section3.png") no-repeat -1148px -11px;
+  width: 45px;
+  height: 38px;
+}
+.section3 .inner .services .service:nth-child(9) .service__icon {
+  background: url("../../images/icons-section3.png") no-repeat -1031px -14px;
+  width: 38px;
+  height: 32px;
+}
+.section3 .inner .services .service:nth-child(10) .service__icon {
+  background: url("../../images/icons-section3.png") no-repeat -65px -12px;
+  width: 49px;
+  height: 36px;
+}
+.section3 .inner .services .service:nth-child(11) .service__icon {
+  background: url("../../images/icons-section3.png") no-repeat -612px -13px;
+  width: 36px;
+  height: 35px;
+}
+.section3 .inner .services .service__title {
+  margin-top: 20px;
+}

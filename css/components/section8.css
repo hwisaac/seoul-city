@@ -1,0 +1,133 @@
+.section8 {
+  height: 242px;
+  margin-top: 40px;
+}
+
+.section8 .inner {
+  justify-content: space-between;
+}
+
+.section8 .inner .container {
+  justify-content: space-between;
+}
+.section8 .inner .container {
+  height: 160px;
+}
+.section8 .inner .container .title {
+  margin-bottom: 10px;
+}
+
+/* CONTAINER-1  */
+.section8 .inner .container-1 {
+}
+.section8 .inner .container-1 .title {
+}
+.section8 .inner .container-1 .content {
+  position: relative;
+  height: 160px;
+  width: 282px;
+  bottom: 0;
+  overflow: hidden;
+}
+.section8 .inner .container-1 .content:hover {
+  cursor: pointer;
+}
+.section8 .inner .container-1 .content img {
+  height: inherit;
+  width: inherit;
+  transition: transform 0.3s ease-in-out;
+}
+.section8 .inner .container-1 .content img:hover {
+  transform: scale(1.1);
+}
+.section8 .inner .container-1 .content .content__title {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  bottom: 0;
+  width: inherit;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* CONTAINER-2  */
+.section8 .inner .container-2 {
+  padding: 0 20px;
+}
+.section8 .inner .container-2 .title {
+}
+.section8 .inner .container-2 .content {
+  height: 160px;
+}
+.section8 .inner .container-2 .content ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: inherit;
+
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+.section8 .inner .container-2 .content ul li {
+  display: flex;
+}
+.section8 .inner .container-2 .content ul li .category {
+  color: #09ac43;
+  margin-right: 20px;
+}
+.section8 .inner .container-2 .content ul li .category:hover {
+  cursor: pointer;
+}
+.section8 .inner .container-2 .content ul li .title {
+  display: block;
+  width: 370px;
+  /* 말줄임 텍스트 사용법 */
+  white-space: nowrap; /*줄바꿈 x */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.section8 .inner .container-2 .content ul li .title:hover {
+  cursor: pointer;
+}
+
+/* container-3 */
+.section8 .inner .container-3 {
+  width: 370px;
+  background-image: url(../../images/section8-img2.gif);
+  background-repeat: no-repeat;
+  height: 200px;
+  position: relative;
+  top: 10px;
+}
+.section8 .inner .container-3:hover {
+  cursor: pointer;
+}
+.section8 .inner .container-3 .title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.section8 .inner .container-3 .title span {
+  border-right: 1px solid #333;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+.section8 .inner .container-3 .title .seoul-logo {
+  background: url("../../images/section8-icons.png") no-repeat -255px 0;
+  width: 24px;
+  height: 24px;
+}
+.section8 .inner .container-3 .icons {
+  background: url("../../images/section8-icons.png") no-repeat -2px -1px;
+  width: 237px;
+  height: 38px;
+  position: absolute;
+  top: 90px;
+  left: 50px;
+}

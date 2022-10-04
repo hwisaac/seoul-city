@@ -1,0 +1,97 @@
+.section1 {
+  margin-top: 38px;
+}
+.section1 .inner-left {
+  align-items: center;
+  justify-content: space-between;
+}
+.section1 .inner-left .logo {
+  width: 133px;
+  height: 51px;
+}
+.section1 .inner-left .logo:hover {
+  cursor: pointer;
+}
+.section1 .inner-left .search-bar {
+  border: 3px solid #2292e9;
+  color: #2292e9;
+  width: 520px;
+  height: 35px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+.section1 .inner-left .search-bar:hover {
+  cursor: pointer;
+}
+.section1 .inner-left .search-bar .input-text {
+  width: 465px;
+  border: none;
+  padding: 10px;
+}
+.section1 .inner-left .search-bar .input-text:focus {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.section1 .inner-left .search-bar .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  margin: 0 0px;
+}
+.section1 .inner-left .search-bar .input-text::placeholder {
+  color: #2292e9;
+}
+.section1 .inner-left .search-bar .icons.keyboard {
+  background-image: url(../../images/icon-keyboard.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 37px;
+}
+.section1 .inner-left .search-bar .icons.search {
+  background: url("../../images/icon_set_common.png") no-repeat -40px -105px;
+  width: 21px;
+  height: 21px;
+}
+
+/* INNER_RIGHT   */
+.section1 .inner-right {
+  justify-content: end;
+}
+
+.section1 .inner-right .grids-container {
+  display: grid;
+  column-gap: 5px;
+  row-gap: 5px;
+  grid-template-columns: 65px 60px 146px;
+  grid-template-rows: 35px 30px;
+  grid-template-areas:
+    "cloud temp weather"
+    "cloud dust dust";
+}
+.section1 .inner-right .grids-container:hover {
+  cursor: pointer;
+}
+.section1 .inner-right .grids-container .grid-cloud {
+  grid-area: cloud;
+  width: 65px;
+  margin: auto auto;
+}
+.section1 .inner-right .grids-container .grid-temp {
+  grid-area: temp;
+  font-weight: 700;
+  font-size: 25px;
+}
+.section1 .inner-right .grids-container .grid-weather {
+  grid-area: weather;
+  padding-top: 10px;
+}
+.section1 .inner-right .grids-container .grid-dust {
+  grid-area: dust;
+  font-size: 13px;
+}

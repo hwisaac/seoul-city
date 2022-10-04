@@ -1,0 +1,24 @@
+.right-side-area {
+  display: block;
+  width: calc((100vw - 1155px) / 2);
+  /* width: 500px; */
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+
+  /* background-color: rgba(255, 116, 46, 0.7); */
+}
+.right-side-area #to-top {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  bottom: 2px;
+  top: 85vh;
+  right: -30px;
+  z-index: 9;
+}
+
+.right-side-area #to-top:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.section9 {
+}
+
+.section9 .inner {
+}
+.section9 .inner .swiper {
+}
+
+.section9 .inner .swiper .swiper-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.section9 .inner .swiper .swiper-wrapper .swiper-slide {
+}
+.section9 .inner .swiper .swiper-wrapper .swiper-slide img {
+}
+.section9 .inner .swiper .swiper-wrapper .swiper-slide img:hover {
+  cursor: pointer;
+}
+.section9 .swiper-pagination {
+}
+.section9 .swiper-controller {
+  display: flex;
+  position: absolute;
+  right: 30px;
+  bottom: -35px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.section9 .swiper-controller .swiper-prev {
+  width: 23px;
+  height: 23px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.section9 .swiper-controller .swiper-prev:hover {
+  cursor: pointer;
+}
+.section9 .swiper-controller .swiper-playToggle {
+  width: 23px;
+  height: 23px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.section9 .swiper-controller .swiper-playToggle {
+  cursor: pointer;
+}
+.section9 .swiper-controller .swiper-next {
+  width: 23px;
+  height: 23px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.section9 .swiper-controller .swiper-next:hover {
+  cursor: pointer;
+}

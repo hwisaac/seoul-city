@@ -1,0 +1,75 @@
+header .inner {
+}
+
+header .inner .header-logo {
+  background: url("../../images/icon_set_common.png") no-repeat -5px -166px;
+  width: 101px;
+  height: 26px;
+  margin-top: 5px;
+}
+header .inner .header-logo:hover {
+  cursor: pointer;
+}
+header .inner ul {
+  display: flex;
+}
+header li:hover {
+  cursor: pointer;
+  color: #2292ec;
+}
+header .inner-left .menu1 {
+  font-weight: 700;
+  font-size: 15px;
+  margin: 10px auto;
+}
+header .inner-left .menu1 li {
+  margin-left: 20px;
+}
+header .inner-right {
+  justify-content: end;
+}
+header .inner-right .menu2 {
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 12px;
+}
+header .inner-right .menu2 li {
+  margin-left: 20px;
+}
+
+header .inner-right .select-lang {
+  border: 1px solid #1e6cb3;
+  font-size: 10px;
+  display: flex;
+  height: 20px;
+  width: 110px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -20px;
+}
+header .inner-right .select-lang {
+  cursor: pointer;
+}
+header .inner-right .select-lang .lang {
+  width: 80px;
+  color: #1e6cb3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  padding-left: 2px;
+}
+header .inner-right .select-lang .material-icons {
+  height: inherit;
+}
+header .inner-right .select-lang .go {
+  background-color: #1e6cb3;
+  color: white;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  padding: 2px;
+}

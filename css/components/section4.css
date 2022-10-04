@@ -1,0 +1,20 @@
+.section4 {
+  display: flex;
+  background-color: #eff4f8;
+  height: 110px;
+  justify-content: center;
+  align-items: center;
+}
+.section4__item {
+  /* border: 1px dotted red; */
+  height: 70px;
+  width: 288px;
+  position: relative;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.section4__item:hover {
+  cursor: pointer;
+}
+.section4__item:nth-child(1) {
+  border-left: none;
+}

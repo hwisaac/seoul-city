@@ -1,0 +1,26 @@
+.section6 {
+  padding: 40px 0;
+}
+.section6 .inner {
+  flex-direction: column;
+}
+.section6 .inner .title {
+  font-weight: 700;
+  font-size: 22px;
+}
+.section6 .inner .items {
+  display: flex;
+  justify-content: space-around;
+}
+.section6 .inner .items .item {
+  text-align: center;
+}
+.section6 .inner .items .item:hover {
+  cursor: pointer;
+}
+.section6 .inner .items .item .icon {
+  margin: 15px 0;
+}
+.section6 .inner .items .item span {
+  font-size: 15px;
+}

@@ -1,0 +1,162 @@
+footer {
+  margin: 40px 0;
+}
+footer .inner {
+  flex-direction: column;
+}
+
+/* row-upper  */
+footer .inner .row-upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+footer .inner .row-upper ul.menu {
+  display: flex;
+}
+footer .inner .row-upper ul.menu li {
+  font-size: 12px;
+  position: relative;
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+footer .inner .row-upper ul.menu li:hover {
+  cursor: pointer;
+}
+footer .inner .row-upper ul.menu li::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 14px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+footer .inner .row-upper ul.menu li:nth-child(1):before {
+  display: none;
+}
+footer .inner .row-upper ul.icons-sns {
+  display: flex;
+  width: 210px;
+  justify-content: space-between;
+}
+footer .inner .row-upper ul.icons-sns li {
+}
+footer .inner .row-upper ul.icons-sns li:hover {
+  cursor: pointer;
+}
+footer .inner .row-upper ul.icons-sns li:nth-child(1) {
+  background: url("../../images/footer-icons.png") no-repeat -25px 0;
+  width: 24px;
+  height: 24px;
+}
+footer .inner .row-upper ul.icons-sns li:nth-child(1):hover {
+  background: url("../../images/footer-icons.png") no-repeat -25px -25px;
+  width: 24px;
+  height: 24px;
+}
+footer .inner .row-upper ul.icons-sns li:nth-child(2) {
+  background: url("../../images/footer-icons.png") no-repeat -50px 0;
+  width: 24px;
+  height: 24px;
+}
+footer .inner .row-upper ul.icons-sns li:nth-child(2):hover {
+  background: url("../../images/footer-icons.png") no-repeat -50px -25px;
+  width: 24px;
+  height: 24px;
+}
+footer .inner .row-upper ul.icons-sns li:nth-child(3) {
+  background: url("../../images/footer-icons.png") no-repeat -75px 0;
+  width: 24px;
+  height: 24px;
+}
+footer .inner .row-upper ul.icons-sns li:nth-child(3):hover {
+  background: url("../../images/footer-icons.png") no-repeat -75px -25px;
+  width: 24px;
+  height: 24px;
+}
+footer .inner .row-upper ul.icons-sns li:nth-child(4) {
+  background: url("../../images/footer-icons.png") no-repeat -100px 0;
+  width: 24px;
+  height: 24px;
+}
+footer .inner .row-upper ul.icons-sns li:nth-child(4):hover {
+  background: url("../../images/footer-icons.png") no-repeat -100px -25px;
+  width: 24px;
+  height: 24px;
+}
+footer .inner .row-upper ul.icons-sns li:nth-child(5) {
+  background: url("../../images/footer-icons.png") no-repeat -125px 0;
+  width: 24px;
+  height: 24px;
+}
+footer .inner .row-upper ul.icons-sns li:nth-child(5):hover {
+  background: url("../../images/footer-icons.png") no-repeat -125px -25px;
+  width: 24px;
+  height: 24px;
+}
+footer .inner .row-upper ul.icons-sns li:nth-child(6) {
+  background: url("../../images/footer-icons.png") no-repeat -150px 0;
+  width: 24px;
+  height: 24px;
+}
+footer .inner .row-upper ul.icons-sns li:nth-child(6):hover {
+  background: url("../../images/footer-icons.png") no-repeat -150px -25px;
+  width: 24px;
+  height: 24px;
+}
+/* row-lower  */
+footer .inner .row-lower {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+}
+footer .inner .row-lower .column-left {
+  width: 60%;
+  display: flex;
+}
+footer .inner .row-lower .column-left .call-me {
+  width: 140px;
+  height: 70px;
+  padding: 3px;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+footer .inner .row-lower .column-left .call-me .title {
+  font-weight: 700;
+}
+footer .inner .row-lower .column-left .call-me .phone {
+  font-size: 20px;
+}
+footer .inner .row-lower .column-left .call-me p {
+  font-size: 1px;
+  font-weight: 400;
+}
+footer .inner .row-lower .column-left ul {
+  padding-left: 30px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .inner .row-lower .column-left ul li {
+}
+
+footer .inner .row-lower .column-right {
+  display: flex;
+  justify-content: end;
+  width: 40%;
+}
+footer .inner .row-lower .column-right img {
+  margin-left: 20px;
+}
+footer .inner .row-lower .column-right img:hover {
+  cursor: pointer;
+}

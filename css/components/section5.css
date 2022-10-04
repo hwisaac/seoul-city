@@ -1,0 +1,111 @@
+.section5 {
+  margin-top: 50px;
+}
+.section5 .inner {
+  height: 210px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid black;
+}
+.section5 .inner .inner-left {
+  height: inherit;
+  display: flex;
+}
+.section5 .inner .inner-left .container {
+  width: 50%;
+  padding: 0 10px;
+}
+.section5 .inner .inner-left .container__title {
+  font-weight: 700;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 4px 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+.section5 .inner .inner-left .container__title span.material-icons {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 19px;
+}
+.section5 .inner .inner-left .container__title span.material-icons:hover {
+  cursor: pointer;
+}
+.section5 .inner .inner-left .container__items {
+  height: 155px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section5 .inner .inner-left .container .item {
+  display: flex;
+  height: 25px;
+}
+.section5 .inner .inner-left .container .item__category {
+  width: 33px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.section5 .inner .inner-left .container .item__title {
+  font-size: 14px;
+  margin-left: 5px;
+  width: 320px;
+
+  line-height: 25px;
+  /* 말줄임표 width, white-space, overflow,text-overflow*/
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.section5 .inner .inner-left .container .item__title:hover {
+  cursor: pointer;
+}
+.section5 .inner .inner-right {
+  flex-direction: column;
+}
+.section5 .inner .inner-right .title {
+  font-weight: 700;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+
+  padding: 4px 0;
+}
+.section5 .inner .inner-right .container {
+  background-color: #eff4f8;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section5 .inner .inner-right .container ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 9px;
+  column-gap: 50px;
+}
+.section5 .inner .inner-right .container ul li {
+  position: relative;
+  color: #333333;
+  font-size: 14px;
+}
+.section5 .inner .inner-right .container ul li::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -10px;
+  margin: auto;
+}
+.section5 .inner .inner-right .container ul li:hover {
+  cursor: pointer;
+}
