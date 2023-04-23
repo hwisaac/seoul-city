@@ -5,7 +5,7 @@
 
 (원본사이트: https://www.seoul.go.kr/main/index.jsp)
 
-<img src="readMeImages/2023-04-23-12-15-02.png" width="400">
+<img src="readMeImages/2023-04-23-12-15-02.png" width="700">
 
 ## 사용
 
